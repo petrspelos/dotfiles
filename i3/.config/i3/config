@@ -228,8 +228,7 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 exec compton
 # exec compton --opacity-rule 95:'name *= "Discord"'
 
-exec_always feh --bg-scale /home/peter/Pictures/drawing-wallpaper.jpg
+exec_always feh --bg-scale /home/peter/Pictures/forrest-wallpaper.jpg
 exec_always /home/peter/Repos/scripts/startpolybar.sh
-exec nordvpn connect uk
 
 new_window pixel 0
