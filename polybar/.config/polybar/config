@@ -30,11 +30,11 @@ alert = #d23d3d
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -46,23 +46,23 @@ border-size = 0
 border-color = #00000000
 
 padding-left = 0
-padding-right = 2
+padding-right = 4
 
-module-margin-left = 1
+module-margin-left = 4
 module-margin-right = 2
 
 font-0 = Roboto:pixelsize=10;1
 font-1 = Roboto:fontformat=truetype:size=8:antialias=false;0
-font-2 = Roboto:pixelsize=10;1
-font-3 = Font Awesome 5 Free:style=Solid:pixelsize=10;3
-font-4 = Font Awesome 5 Brands:style=Regular:pixelsize=10;3
+font-2 = Roboto:pixelsize=10;2
+font-3 = Font Awesome 5 Free:style=Solid:pixelsize=10;2
+font-4 = Font Awesome 5 Brands:style=Regular:pixelsize=10;2
 
 modules-left = i3
 modules-center = date
 modules-right = pulseaudio battery powermenu
 
-tray-position = right
-tray-padding = 2
+tray-position = left
+tray-padding = 10
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
@@ -107,7 +107,7 @@ cursor-scroll = ns-resize
 
 ;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 ;label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+;label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
@@ -115,34 +115,34 @@ type = internal/bspwm
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.primary}
-label-focused-padding = 2
+label-focused-padding = 4
 
 label-occupied = %index%
-label-occupied-padding = 2
+label-occupied-padding = 4
 
 label-urgent = %index%!
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 4
 
 label-empty = %index%
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+label-empty-padding = 4
 
 ; Separator in between workspaces
 ; label-separator = |
 
 [module/i3]
 type = internal/i3
-format = <label-state> <label-mode>
+format = <label-state>
 index-sort = true
 wrapping-scroll = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
-label-mode-padding = 2
-label-mode-foreground = #000
-label-mode-background = ${colors.primary}
+;label-mode-padding = 2
+;label-mode-foreground = #000
+;label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
@@ -374,34 +374,34 @@ animation-discharging-framerate = 750
 ;ramp-2 = 
 ;ramp-foreground = ${colors.foreground-alt}
 
-[module/powermenu]
-type = custom/menu
+;[module/powermenu]
+;type = custom/menu
 
-expand-right = true
-
-format-spacing = 1
-
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
+;expand-right = true
+;
+;format-spacing = 1
+;
+;label-open = P
+;label-open-foreground = ${colors.secondary}
+;label-close =  cancel
+;label-close-foreground = ${colors.secondary}
+;label-separator = |
+;label-separator-foreground = ${colors.foreground-alt}
+;
+;menu-0-0 = reboot
+;menu-0-0-exec = menu-open-1
+;menu-0-1 = power off
+;menu-0-1-exec = menu-open-2
+;
+;menu-1-0 = cancel
+;menu-1-0-exec = menu-open-0
+;menu-1-1 = reboot
+;menu-1-1-exec = sudo reboot
+;
+;menu-2-0 = power off
+;menu-2-0-exec = sudo poweroff
+;menu-2-1 = cancel
+;menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
