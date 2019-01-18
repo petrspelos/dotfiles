@@ -47,7 +47,7 @@ set copyindent
 set ruler
 
 " Line numbers on
-set nu
+set nu rnu
 
 " 80 characters reminder
 set cc=80

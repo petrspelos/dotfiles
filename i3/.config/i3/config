@@ -102,7 +102,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # custom binds
-bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures'
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -q 100 -e 'mv $f ~/Pictures'
 
 # focus the child container
 #bindsym $mod+d focus child
