@@ -1,4 +1,4 @@
-ů;==========================================================
+;==========================================================
 ;
 ;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
@@ -18,12 +18,12 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #111
-background-alt = #222
+background = #2a2521
+background-alt = #201c18
 ;foreground = ${xrdb:color7:#222}
-foreground = #ccc
+foreground = #ced8da
 foreground-alt = #555
-primary = #66a9b9
+primary = #54701b
 secondary = #ffe863
 alert = #d23d3d
 
