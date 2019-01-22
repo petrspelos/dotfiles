@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 " Discord Rich Presense
 Plug 'anned20/vimsence'
 Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'Valloric/YouCompleteMe'
 
 " Initialize plugin system
 call plug#end()
@@ -52,4 +53,8 @@ set nu rnu
 " 80 characters reminder
 set cc=80
 highlight ColorColumn ctermbg=0
+
+autocmd BufNewFile,BufRead *.ihps set syntax=cpp
+autocmd BufNewFile,BufRead *.shps set syntax=cpp
+autocmd BufNewFile,BufRead *.hps set syntax=cpp
 
