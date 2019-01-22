@@ -40,3 +40,9 @@ URxvt.shading:         15
 ! white
 *.color7:       #cccccc
 *.color15:      #ffffff
+
+! Copy Paste shortcuts
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
