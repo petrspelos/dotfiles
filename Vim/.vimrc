@@ -54,9 +54,9 @@ set nu rnu
 set cc=80
 highlight ColorColumn ctermbg=0
 
-autocmd BufNewFile,BufRead *.ihps set syntax=cpp
-autocmd BufNewFile,BufRead *.shps set syntax=cpp
-autocmd BufNewFile,BufRead *.hps set syntax=cpp
+" Amnesia Modding
+autocmd BufNewFile,BufRead *.ihps,*.shps,*.hps set syntax=cpp
+autocmd BufWritePost *.ihps,*.shps !./build.sh
 
 " Set timeoutlen for the 'O' lag.
 set timeoutlen=100
