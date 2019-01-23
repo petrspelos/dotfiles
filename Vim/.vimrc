@@ -58,3 +58,7 @@ autocmd BufNewFile,BufRead *.ihps set syntax=cpp
 autocmd BufNewFile,BufRead *.shps set syntax=cpp
 autocmd BufNewFile,BufRead *.hps set syntax=cpp
 
+" Set timeoutlen for the 'O' lag.
+set timeoutlen=100
+
+
