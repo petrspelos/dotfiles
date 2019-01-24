@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'anned20/vimsence'
 Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'Valloric/YouCompleteMe'
+Plug 'kien/ctrlp.vim'
 
 " Initialize plugin system
 call plug#end()
