@@ -65,4 +65,6 @@ autocmd BufWritePost *.ihps,*.shps !./build.sh
 " Set timeoutlen for the 'O' lag.
 set timeoutlen=100
 
+" Simple mappings
+map ,m CtrlP
 
