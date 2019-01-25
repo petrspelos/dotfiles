@@ -1,3 +1,5 @@
+let g:OmniSharp_server_use_mono = 1
+
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
@@ -6,8 +8,9 @@ call plug#begin('~/.vim/plugged')
 " Discord Rich Presense
 Plug 'anned20/vimsence'
 Plug 'https://github.com/scrooloose/nerdtree'
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
 Plug 'kien/ctrlp.vim'
+Plug 'OmniSharp/omnisharp-vim'
 
 " Initialize plugin system
 call plug#end()
