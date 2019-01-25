@@ -66,5 +66,5 @@ autocmd BufWritePost *.ihps,*.shps !./build.sh
 set timeoutlen=100
 
 " Simple mappings
-map ,m CtrlP
+map ,m :CtrlP<cr>
 
