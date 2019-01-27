@@ -1,4 +1,5 @@
 let g:OmniSharp_server_use_mono = 1
+let g:goyo_linenr = 1
 
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
@@ -8,7 +9,7 @@ call plug#begin('~/.vim/plugged')
 " Discord Rich Presense
 Plug 'anned20/vimsence'
 Plug 'https://github.com/scrooloose/nerdtree'
-" Plug 'Valloric/YouCompleteMe'
+Plug 'junegunn/goyo.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'OmniSharp/omnisharp-vim'
 
