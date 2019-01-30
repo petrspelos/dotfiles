@@ -12,7 +12,7 @@ It uses [GNU Stow](https://www.gnu.org/software/stow/) to create symlinks to you
 
 For example
 ```
-stow -t ~ vim
+stow -t ~ Vim
 ```
 would apply the vim config files. **Note that this does not overwrite existing configurations.**
 
