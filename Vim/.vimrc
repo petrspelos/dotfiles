@@ -12,6 +12,8 @@ Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'OmniSharp/omnisharp-vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Initialize plugin system
 call plug#end()
@@ -69,3 +71,8 @@ set timeoutlen=100
 " Simple mappings
 map ,m :CtrlP<cr>
 
+" AirlineTheme
+let g:airline_theme='wombat'
+
+" colorscheme
+colorscheme apprentice
