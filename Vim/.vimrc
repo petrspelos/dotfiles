@@ -65,6 +65,9 @@ highlight ColorColumn ctermbg=0
 autocmd BufNewFile,BufRead *.ihps,*.shps,*.hps set syntax=cpp
 autocmd BufWritePost *.ihps,*.shps !./build.sh
 
+" ASP.NET
+autocmd BufNewFile,BufRead *.cshtml set syntax=html
+
 " Set timeoutlen for the 'O' lag.
 set timeoutlen=100
 
