@@ -1,5 +1,6 @@
 URxvt.intensityStyles: false
 URxvt.font:            xft:Source Code Variable:size=11, xft:Terminus:pixelsize=11
+!URxvt.font:            xft:Source Code Variable:size=20, xft:Terminus:pixelsize=11
 URxvt.scrollBar:       false
 URxvt.transparent:     true
 URxvt.shading:         15
