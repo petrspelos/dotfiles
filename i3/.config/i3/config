@@ -147,8 +147,9 @@ bindsym $mod+Shift+iacute move container to workspace $ws9
 bindsym $mod+Shift+eacute move container to workspace $ws10
 
 assign [class="discord"] $ws1
-assign [class="qutebrowser"] $ws2
-assign [class="Wire"] $ws4
+assign [class="Wire"] $ws1
+assign [class="Mailspring"] $ws1
+assign [class="Firefox"] $ws2
 assign [class="vlc"] $ws9
 assign [class="obs"] $ws10
 
