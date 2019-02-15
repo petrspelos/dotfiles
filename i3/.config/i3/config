@@ -44,6 +44,7 @@ bindsym $mod+F11 exec /home/peter/Repos/scripts/bluetooth.sh
 bindsym $mod+F1 exec qutebrowser
 bindsym $mod+F2 exec urxvt -e ranger
 bindsym $mod+Tab exec i3-msg move workspace to output right
+bindsym $mod+Ctrl+l exec i3lock-fancy
 bindsym Print --release exec --no-startup-id scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -celection clipboard -target image/png -i $f'
 
 # screen brightness
