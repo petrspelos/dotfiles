@@ -7,41 +7,41 @@ URxvt.shading:         15
 URxvt.blurRadius:      10
 
 ! special
-*.foreground:   #daba8b
-*.background:   #191716
-*.cursorColor:  #daba8b
+*.foreground:   #d9d8d8
+*.background:   #231f20
+*.cursorColor:  #d9d8d8
 
 ! black
-*.color0:       #0f0e0d
-*.color8:       #383332
+*.color0:       #231f20
+*.color8:       #737171
 
 ! red
-*.color1:       #845336
-*.color9:       #8c4f4a
+*.color1:       #ee2e24
+*.color9:       #ee2e24
 
 ! green
-*.color2:       #57553c
-*.color10:      #898471
+*.color2:       #00853e
+*.color10:      #00853e
 
 ! yellow
-*.color3:       #a17e3e
-*.color11:      #c8b491
+*.color3:       #ffd204
+*.color11:      #ffd204
 
 ! blue
-*.color4:       #43454f
-*.color12:      #65788f
+*.color4:       #009ddc
+*.color12:      #009ddc
 
 ! magenta
-*.color5:       #604848
-*.color13:      #755e4a
+*.color5:       #98005d
+*.color13:      #98005d
 
 ! cyan
-*.color6:       #5c6652
-*.color14:      #718062
+*.color6:       #85cebc
+*.color14:      #85cebc
 
 ! white
-*.color7:       #a18b62
-*.color15:      #bc9d66
+*.color7:       #d9d8d8
+*.color15:      #ffffff
 
 ! Copy Paste shortcuts
 URxvt.iso14755: false
