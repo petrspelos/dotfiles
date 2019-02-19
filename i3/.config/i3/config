@@ -45,7 +45,7 @@ bindsym $mod+F1 exec qutebrowser
 bindsym $mod+F2 exec urxvt -e ranger
 bindsym $mod+Tab exec i3-msg move workspace to output right
 bindsym $mod+Ctrl+l exec i3lock-fancy
-bindsym Print --release exec --no-startup-id scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -celection clipboard -target image/png -i $f'
+bindsym Print --release exec --no-startup-id scrot -s '/tmp/%Y-%m-%d_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
 
 # screen brightness
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10"
@@ -231,11 +231,11 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
-exec compton
+exec --no-startup-id compton
 # exec compton --opacity-rule 95:'name *= "Discord"'
 
-exec_always feh --bg-scale /home/peter/Pictures/forrest-wallpaper.jpg
-exec_always /home/peter/Repos/scripts/startpolybar.sh
+exec_always --no-startup-id feh --bg-scale /home/peter/Pictures/forrest-wallpaper.jpg
+exec_always --no-startup-id /home/peter/Repos/scripts/startpolybar.sh
 exec --no-startup-id blueman-applet
 exec --no-startup-id nm-applet
 
