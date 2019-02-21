@@ -14,6 +14,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'shime/vim-livedown'
 
 " Initialize plugin system
 call plug#end()
@@ -78,4 +79,26 @@ map ,m :CtrlP<cr>
 let g:airline_theme='wombat'
 
 " colorscheme
-colorscheme apprentice
+" colorscheme apprentice
+
+" LiveDown config
+" automatically open preview when markdown is opened
+let g:livedown_autorun = 1
+
+" Should browser pop-up when previewing
+let g:livedown_open = 1
+
+" the server port
+let g:livedown_port = 1337
+
+" the browser to use
+let g:livedown_browser = "surf"
+
+" OTHER MAPPINGS
+
+" create two new lines after, but insert into the first one
+nmap SP o<ESC>O
+
+" add a new line after, but don't insert
+nmap sp o<ESC>0d$
+

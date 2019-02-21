@@ -230,12 +230,12 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
-exec --no-startup-id compton
+exec --no-startup-id compton --no-fading-openclose
 # exec compton --opacity-rule 95:'name *= "Discord"'
 
-exec_always --no-startup-id feh --bg-scale /home/peter/Pictures/forrest-wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill /home/peter/Repos/dotfiles/wallpaper.jpg
 exec_always --no-startup-id /home/peter/Repos/scripts/startpolybar.sh
-exec --no-startup-id blueman-applet
+#exec --no-startup-id blueman-applet
 exec --no-startup-id nm-applet
 
 new_window pixel 0

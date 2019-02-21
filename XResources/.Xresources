@@ -1,47 +1,47 @@
 URxvt.intensityStyles: false
-URxvt.font:            xft:Source Code Variable:size=11, xft:Terminus:pixelsize=11
-!URxvt.font:            xft:Source Code Variable:size=20, xft:Terminus:pixelsize=11
+URxvt.font:            xft:inconsolata:size=11, xft:Terminus:pixelsize=11
+!URxvt.font:            xft:inconsolata:size=20, xft:Terminus:pixelsize=11
 URxvt.scrollBar:       false
 URxvt.transparent:     true
-URxvt.shading:         15
-URxvt.blurRadius:      10
+URxvt.shading:         40
+URxvt.blurRadius:      15
 
 ! special
-*.foreground:   #d9d8d8
-*.background:   #231f20
-*.cursorColor:  #d9d8d8
+*.foreground:   #d2c5bc
+*.background:   #101010
+*.cursorColor:  #d2c5bc
 
 ! black
-*.color0:       #231f20
-*.color8:       #737171
+*.color0:       #202020
+*.color8:       #606060
 
 ! red
-*.color1:       #ee2e24
-*.color9:       #ee2e24
+*.color1:       #b91e2e
+*.color9:       #d14548
 
 ! green
-*.color2:       #00853e
-*.color10:      #00853e
+*.color2:       #81957c
+*.color10:      #a7b79a
 
 ! yellow
-*.color3:       #ffd204
-*.color11:      #ffd204
+*.color3:       #f9bb80
+*.color11:      #fae3a0
 
 ! blue
-*.color4:       #009ddc
-*.color12:      #009ddc
+*.color4:       #356579
+*.color12:      #7491a1
 
 ! magenta
-*.color5:       #98005d
-*.color13:      #98005d
+*.color5:       #2d2031
+*.color13:      #87314e
 
 ! cyan
-*.color6:       #85cebc
-*.color14:      #85cebc
+*.color6:       #0b3452
+*.color14:      #0f829d
 
 ! white
-*.color7:       #d9d8d8
-*.color15:      #ffffff
+*.color7:       #909090
+*.color15:      #fff0f0
 
 ! Copy Paste shortcuts
 URxvt.iso14755: false
