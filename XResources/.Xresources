@@ -3,45 +3,45 @@ URxvt.font:            xft:inconsolata:size=11, xft:Terminus:pixelsize=11
 !URxvt.font:            xft:inconsolata:size=20, xft:Terminus:pixelsize=11
 URxvt.scrollBar:       false
 URxvt.transparent:     true
-URxvt.shading:         40
+URxvt.shading:         20
 URxvt.blurRadius:      15
 
 ! special
-*.foreground:   #d2c5bc
-*.background:   #101010
-*.cursorColor:  #d2c5bc
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #bebebe
 
 ! black
-*.color0:       #202020
-*.color8:       #606060
+*.color0:       #000000
+*.color8:       #222222
 
 ! red
-*.color1:       #b91e2e
-*.color9:       #d14548
+*.color1:       #f25a5a
+*.color9:       #ffbbbb
 
 ! green
-*.color2:       #81957c
-*.color10:      #a7b79a
+*.color2:       #77bb33
+*.color10:      #dcf692
 
 ! yellow
-*.color3:       #f9bb80
-*.color11:      #fae3a0
+*.color3:       #efc334
+*.color11:      #f6df92
 
 ! blue
-*.color4:       #356579
-*.color12:      #7491a1
+*.color4:       #5555dd
+*.color12:      #b2baf6
 
 ! magenta
-*.color5:       #2d2031
-*.color13:      #87314e
+*.color5:       #c350ff
+*.color13:      #f09fff
 
 ! cyan
-*.color6:       #0b3452
-*.color14:      #0f829d
+*.color6:       #5af2ee
+*.color14:      #5af2ee
 
 ! white
-*.color7:       #909090
-*.color15:      #fff0f0
+*.color7:       #bebebe
+*.color15:      #eeeeee
 
 ! Copy Paste shortcuts
 URxvt.iso14755: false

@@ -138,11 +138,9 @@ ex ()
   fi
 }
 
-# better yaourt colors
-export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
-
 export PATH="$PATH:/home/peter/.dotnet/tools"
 export MSBuildSDKsPath=/opt/dotnet/sdk/2.2.102/Sdks
 export PATH=$MSBuildSDKsPath:$PATH
 PS1="\[\033[1m\]\033[38;5;4m\][\033[38;5;11m\]\u\033[38;5;208m\]@\033[38;5;202m\]\h\[\033[01;37m\] \W\[\033[38;5;4m\]]\$\[\033[00m\] "
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export PS1
