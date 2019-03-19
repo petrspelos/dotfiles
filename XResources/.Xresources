@@ -1,5 +1,5 @@
 URxvt.intensityStyles: false
-URxvt.font:            xft:inconsolata:size=11, xft:Terminus:pixelsize=11
+URxvt.font:            xft:inconsolata:size=12, xft:Terminus:pixelsize=11
 !URxvt.font:            xft:inconsolata:size=20, xft:Terminus:pixelsize=11
 URxvt.scrollBar:       false
 URxvt.transparent:     true
