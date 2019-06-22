@@ -18,21 +18,21 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #081121
-background-alt = #081121
+background = #537ab3
+background-alt = #537ab3
 ;foreground = ${xrdb:color7:#222}
-foreground = #fff
+foreground = #f3faff
 foreground-alt = #858e9a 
-primary = #984420
+primary = #537ab3
 secondary = #fff
 alert = #d23d3d
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 100%
-height = 30
-;offset-x = 10
-;offset-y = 5
+width = 1820
+height = 40
+offset-x = 50
+offset-y = 5
 radius = 0.0
 fixed-center = true
 
@@ -63,14 +63,14 @@ modules-center = date
 modules-right = pulseaudio battery powermenu
 
 tray-position = left
-tray-padding = 10
+tray-padding = 20
 ;tray-background = #0063ff
 ;tray-detached = true
 
 ;wm-restack = bspwm
 ;wm-restack = i3
 
-;override-redirect = true
+override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev

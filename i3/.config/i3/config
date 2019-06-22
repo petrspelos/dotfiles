@@ -200,22 +200,23 @@ hide_edge_borders both
 
 # Gaps
 # gaps inner 10
-# gaps outer 5
+gaps outer 50
+# gaps top 10
 
 #Start i3bar to display a workspace bar (plus the system information i3status
 #finds out, if available)
-bar {
-	status_command i3status
-        position top
-        colors {
- 		background $bg-color
- 	    	separator #757575
- 		#                  border             background         text
- 		focused_workspace  $bg-color          $bg-color          $text-color
- 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
- 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-        }
-}
+#bar {
+	#status_command i3status
+        #position top
+        #colors {
+ 		#background $bg-color
+ 	    	#separator #757575
+ 		##                  border             background         text
+ 		#focused_workspace  $bg-color          $bg-color          $text-color
+ 		#inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+ 		#urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+        #}
+#}
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -229,10 +230,10 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 exec --no-startup-id nm-applet
 exec --no-startup-id compton --no-fading-openclose
 
-exec_always --no-startup-id feh --bg-fill /home/peter/Repos/dotfiles/wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill /home/peter/Pictures/flower.jpg
 
 # OLD: POLYBAR
-#exec_always --no-startup-id /home/peter/Repos/scripts/startpolybar.sh
+exec_always --no-startup-id /home/peter/Repos/petrspelos/scripts/startpolybar.sh
 
 new_window pixel 0
 
